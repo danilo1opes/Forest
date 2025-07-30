@@ -23,4 +23,4 @@ dia.innerText = date.toLocaleDateString('pt-BR', {
   weekday: 'long',
 });
 
-video.src = random < 25 ? './img/video_chuva.mp4' : './img/video_sol.mp4';
+video.src = random < 25 ? '/video/video_chuva.mp4' : '/video/video_sol.mp4';

@@ -12,7 +12,14 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['DM Sans', 'system-ui', 'sans-serif'],
+        serif: ['DM Serif Text', 'Georgia', 'serif'],
+      },
       keyframes: {
+        scrollBehavior: {
+          smooth: 'smooth',
+        },
         slideIn: {
           '0%': {
             opacity: 0,
